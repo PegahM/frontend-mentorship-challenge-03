@@ -65,7 +65,7 @@ form {
 }
 /* finish travel form styling */
 /* start responsive choose travel form styling */
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1025px) {
   form {
     flex-direction: column;
     margin: 0 8rem;
