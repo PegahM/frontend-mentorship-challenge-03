@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tavel With Us</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="src/style.css" class="" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Tavel With Us</h1>
+      <div class="header-account">
+        <p>Account</p>
+        <div class="icon">
+          <i class="fas fa-user profile-icon"></i>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="tavel-with-us">
+        <form action="">
+          <span class="choices">
+            <div class="region">
+              <label for="">Where you go?</label>
+              <select id="region" name="" size="" required>
+                <option value="" class="region-option">
+                  --Select a region--
+                </option>
+                <option value="Yazd" class="region-option">Yazd</option>
+                <option value="Ramsar" class="region-option">Ramsar</option>
+                <option value="Esfahan" class="region-option">Esfahan</option>
+              </select>
+            </div>
+            <div class="check-in">
+              <label for="">Check In</label>
+              <input type="date" class="check-in-input" />
+            </div>
+            <div class="check-out">
+              <label for="">Check out</label>
+              <input type="date" class="check-out-input" required />
+            </div>
+          </span>
+          <span>
+            <div class="search">
+              <button id="search">Search</button>
+            </div>
+          </span>
+        </form>
+      </section>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

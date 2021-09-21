@@ -1,0 +1,180 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  --tealColor: #16a085;
+}
+body {
+  background-image: url("../img/back.jpg");
+}
+/*start header elements styling */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem 3rem;
+  text-align: center;
+  align-items: center;
+  color: var(--tealColor);
+  margin: 3rem;
+}
+/*finish header elements styling */
+/*start Account elements styling */
+.header-account {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;
+  border-radius: 15px;
+  font-size: 18px;
+  margin: 0 2rem;
+}
+.profile-icon {
+  padding: 0 1rem;
+  font-size: 25px;
+  margin-left: 1rem;
+}
+/*finish Account elements styling */
+/* start define Account elements hover styling */
+.header-account:hover {
+  cursor: pointer;
+  color: white;
+
+  background-color: var(--tealColor);
+  transition: 200ms ease-in-out;
+}
+/* finish define Account elements hover styling */
+/* start h1 styling */
+h1 {
+  color: var(--tealColor);
+  font-size: 22px;
+}
+/* finish h1 styling */
+/* start choose travel form styling */
+
+form {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 10px;
+  margin: 15rem 20rem;
+}
+/* finish travel form styling */
+/* start responsive choose travel form styling */
+@media only screen and (max-width: 1062px) {
+  form {
+    flex-direction: column;
+    margin: 0 12rem;
+  }
+}
+/* finish responsive choose travel form styling */
+
+/* start styling form container */
+form span {
+  display: flex;
+  flex-direction: row;
+  margin: 0 2rem;
+  padding: 20px;
+}
+/* finish styling form container */
+/* start responsive form container */
+@media only screen and (max-width: 768px) {
+  form span {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+  }
+}
+/* finish responsive form container */
+/* start styling form elements */
+form .choices div {
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid gray;
+  text-align: center;
+  padding: 0 2rem;
+}
+/* finish styling form elements */
+/* start responsive form elements */
+@media only screen and (max-width: 768px) {
+  form .choices div {
+    border-right: none;
+
+    border-bottom: 2px solid gray;
+    padding: 1rem;
+    text-align: center;
+  }
+}
+/* start responsive form elements */
+
+/* start styling region */
+#region {
+  margin-top: 1rem;
+  background: none;
+  border: none;
+}
+/* finish styling region */
+/* start styling region hover */
+#region:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+/* finish styling region hover */
+
+/* start styling check in and out  */
+.check-in input {
+  background: none;
+  border: none;
+  margin-top: 1rem;
+}
+/* finish styling check in and out  */
+.check-out input {
+  background: none;
+  border: none;
+  margin-top: 1rem;
+}
+/* start styling check in and out hover */
+.check-out input:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+.check-in input:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+/* finish styling check in and out hover */
+
+/* start styling search */
+.search {
+  border-right: none;
+}
+
+/* finish styling search */
+
+/* start styling search button */
+
+button {
+  font-size: 16px;
+  padding: 1rem 2.5rem;
+  color: white;
+  background-color: var(--tealColor);
+  border: none;
+  border-radius: 10px;
+}
+/* finish styling search button */
+
+/* start styling search button hover */
+
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: var(--tealColor);
+  transition: 200ms ease-in-out;
+  border: 1px solid var(--tealColor);
+}
+/* finish styling search button hover */
