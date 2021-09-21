@@ -65,10 +65,10 @@ form {
 }
 /* finish travel form styling */
 /* start responsive choose travel form styling */
-@media only screen and (max-width: 1062px) {
+@media only screen and (max-width: 1500px) {
   form {
     flex-direction: column;
-    margin: 0 12rem;
+    margin: 0 8rem;
   }
 }
 /* finish responsive choose travel form styling */
@@ -86,7 +86,9 @@ form span {
   form span {
     display: flex;
     flex-direction: column;
-    margin-right: 0;
+    
+    padding: 3rem;
+    margin-right: 1rem;
   }
 }
 /* finish responsive form container */
